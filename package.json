@@ -10,14 +10,26 @@
     "email": "dinels12@gmail.com",
     "url": "https://github.com/dinels12"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinels12/graphql-type-object-id-no-deps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dinels12/graphql-type-object-id-no-deps/issues"
+  },
+  "homepage": "https://github.com/dinels12/graphql-type-object-id-no-deps#readme",
   "scripts": {
     "prebuild": "npm run clean-build",
     "build": "tsc",
     "clean-build": "rimraf ./dist && mkdir dist",
     "prepublishOnly": "npm run build"
   },
-
-  "keywords": ["nestjs", "objectid", "scalar","lightweight"],
+  "keywords": [
+    "nestjs",
+    "objectid",
+    "scalar",
+    "lightweight"
+  ],
   "files": [
     "/dist"
   ],
