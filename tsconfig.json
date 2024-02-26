@@ -1,0 +1,9 @@
+{
+    "extends": "fox1t-tsconfig",
+    "compilerOptions": {
+      "outDir": "dist",
+    },
+    "include": [
+      "./src/**/*.ts"
+    ]
+  }

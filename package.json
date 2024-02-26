@@ -1,4 +1,34 @@
 {
-  "name": "graphql-object-id-no-deps",
+  "name": "graphql-type-object-id-no-deps",
+  "version": "1.0.0",
+  "description": "Very flexible low-deps Graphql ObjectID Scalar for NestJS",
+  "main": "./dist",
+  "types": "./dist",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Suarez",
+    "email": "dinels12@gmail.com",
+    "url": "https://github.com/dinels12"
+  },
+  "scripts": {
+    "prebuild": "npm run clean-build",
+    "build": "tsc",
+    "clean-build": "rimraf ./dist && mkdir dist",
+    "prepublishOnly": "npm run build"
+  },
+
+  "keywords": ["nestjs", "objectid", "scalar","lightweight"],
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "bson": "4.7.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "fox1t-tsconfig": "^0.2.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
   "packageManager": "yarn@4.1.0"
 }
