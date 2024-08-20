@@ -1,6 +1,6 @@
 {
   "name": "graphql-type-object-id-no-deps",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Very flexible low-deps Graphql ObjectID Scalar for NestJS",
   "main": "./dist",
   "types": "./dist",
@@ -34,13 +34,12 @@
     "/dist"
   ],
   "dependencies": {
-    "bson": "4.7.2",
+    "bson": "6.8.0",
     "graphql": "^16.8.1"
   },
   "devDependencies": {
     "fox1t-tsconfig": "^0.2.0",
     "rimraf": "^5.0.5",
     "typescript": "^5.3.3"
-  },
-  "packageManager": "yarn@4.1.0"
+  }
 }

@@ -1,3 +1,3 @@
 import { GraphQLScalarType } from 'graphql';
-export declare const GraphQLObjectId: GraphQLScalarType<import("bson").ObjectID, string>;
+export declare const GraphQLObjectId: GraphQLScalarType<import("bson").ObjectId, string>;
 export default GraphQLObjectId;
